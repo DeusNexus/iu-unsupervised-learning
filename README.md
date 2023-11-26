@@ -31,6 +31,7 @@ For this use case, we have been given access to an archive of recently published
 # Disclaimer
 The notebooks using Dask Distributed to work with the complete dataset require at least 50GB of RAM. This was done with AMD® Ryzen 7 5800h with Radeon graphics × 16, 32GB RAM + 64GB SWAP Memory.
 
-# Disclaimer: the following notebooks will use Dask Distributed to work with the complete dataset and require at least 50GB of RAM.
-# This was done with AMD® Ryzen 7 5800h with Radeon graphics × 16, 32GB RAM + 64GB SWAP Memory.
+# Disclaimer: 
+The following notebooks will use Dask Distributed to work with the complete dataset and require at least 50GB of RAM.
+This was done with AMD® Ryzen 7 5800h with Radeon graphics × 16, 32GB RAM + 64GB SWAP Memory.
 
