@@ -22,21 +22,28 @@ As data scientists, our objective is to investigate current topics in science an
 For this use case, we have been given access to an archive of recently published scientific works. The dataset is available from the following webpage: [arXiv Dataset](https://www.kaggle.com/Cornell-University/arxiv)
 
 # Exploring the dataset
-Exploring the topics in the title and abstract 
+Exploring the topics in the title and abstract.
+
+Abstract Wordcloud
 ![Abstract WordCloud](media/abstract_wordcloud.png)
+
+Abstract Wordcloud
 ![Title WordCloud](media/title_wordcloud.png)
 
 # Using PCA and KMeans to find the optimal cluster
+Cluster Scores using different metrics
 ![Cluster Scores](media/cluster_scores.png)
 
+Scatter plot of the top 2 PCA componenets with the found ideal cluster size.
 ![PCA 2D Clusters](media/pca_2d_clusters.png)
 
 # Articles are grouped by month, and then the cluster label that belongs to this month is identified to discover changes in the themes.
+Monthly Clusters Calender
 ![Monthly Clusters](media/monthly_clusters.png)
 
 # The word clouds for every cluster are created by finding the most frequent category terms, which are looked up for the respective names.
+Cluster Themes in WordCloud
 ![Cluster Category WordCloud](media/clusters_category_wordcloud.png)
-
 
 # Reproduction Steps
 1. Clone the repo.
