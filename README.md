@@ -31,22 +31,22 @@ Abstract Wordcloud
 Abstract Wordcloud
 ![Title WordCloud](media/title_wordcloud.png)
 
-# Using PCA and KMeans to find the optimal cluster
+## Using PCA and KMeans to find the optimal cluster
 Cluster Scores using different metrics
 ![Cluster Scores](media/cluster_scores.png)
 
 Scatter plot of the top 2 PCA componenets with the found ideal cluster size.
 ![PCA 2D Clusters](media/pca_2d_clusters.png)
 
-# Articles are grouped by month, and then the cluster label that belongs to this month is identified to discover changes in the themes.
+## Articles are grouped by month, and then the cluster label that belongs to this month is identified to discover changes in the themes.
 Monthly Clusters Calender
 ![Monthly Clusters](media/monthly_clusters.png)
 
-# The word clouds for every cluster are created by finding the most frequent category terms, which are looked up for the respective names.
+## The word clouds for every cluster are created by finding the most frequent category terms, which are looked up for the respective names.
 Cluster Themes in WordCloud
 ![Cluster Category WordCloud](media/clusters_category_wordcloud.png)
 
-# Reproduction Steps
+## Reproduction Steps
 1. Clone the repo.
 2. Download the arxiv-metadata-oai-snapshot.json (3.97 GB) from [arXiv Dataset](https://www.kaggle.com/Cornell-University/arxiv) and place it in the arXiv folder.
 3. Create a virtual environment using `python -m venv venv` and activate it using `source venv/bin/activate`.
