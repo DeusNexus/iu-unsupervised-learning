@@ -21,6 +21,23 @@ As data scientists, our objective is to investigate current topics in science an
 ### Data:
 For this use case, we have been given access to an archive of recently published scientific works. The dataset is available from the following webpage: [arXiv Dataset](https://www.kaggle.com/Cornell-University/arxiv)
 
+# Exploring the dataset
+Exploring the topics in the title and abstract 
+![Abstract WordCloud](media/abstract_wordcloud.png)
+![Title WordCloud](media/title_wordcloud.png)
+
+# Using PCA and KMeans to find the optimal cluster
+![Cluster Scores](media/cluster_scores.png)
+
+![PCA 2D Clusters](media/pca_2d_clusters.png)
+
+# Articles are grouped by month, and then the cluster label that belongs to this month is identified to discover changes in the themes.
+![Monthly Clusters](media/monthly_clusters.png)
+
+# The word clouds for every cluster are created by finding the most frequent category terms, which are looked up for the respective names.
+![Cluster Category WordCloud](media/clusters_category_wordcloud.png)
+
+
 # Reproduction Steps
 1. Clone the repo.
 2. Download the arxiv-metadata-oai-snapshot.json (3.97 GB) from [arXiv Dataset](https://www.kaggle.com/Cornell-University/arxiv) and place it in the arXiv folder.
