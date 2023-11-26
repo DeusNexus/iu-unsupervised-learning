@@ -1,4 +1,5 @@
-# DLBDSMLUSL01 – Machine Learning – Unsupervised Learning and Feature Engineering
+# IU INTERNATIONAL UNIVERSITY OF APPLIED SCIENCES
+## DLBDSMLUSL01 – Machine Learning – Unsupervised Learning and Feature Engineering
 
 Welcome to the repository dedicated to the exploration of current trends in science using machine learning and unsupervised learning techniques. In this project, we aim to provide a comprehensive quantitative overview of current topics in science based on a large archive of scientific papers. The goal is to identify homogeneous clusters and present reduced-dimensional views that capture the main traits of the dataset.
 
