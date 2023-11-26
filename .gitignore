@@ -1,0 +1,6 @@
+__pycache__
+arXiv/arxiv-metadata-oai-snapshot.json
+processing/stage_1_text_preprocessed/
+processing/stage_2_text_vectorized/
+processing/stage_3_classification/
+venv
